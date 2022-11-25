@@ -1,0 +1,24 @@
+
+.container_external_form {
+  @apply 
+  flex 
+  flex-col 
+  items-center 
+  justify-center
+}
+
+.container_internal_form {
+  @apply 
+  flex 
+  flex-row 
+  flex-wrap
+  w-[90%]
+  p-[10px]
+  rounded-lg
+  mb-10 
+  bg-white
+  drop-shadow-2xl
+}
+
+
+

@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.bottom-82 {
+  bottom: 82px;
+}
+
+/*
+ * Base styles
+ */
+
+body {
+  @apply overflow-x-hidden;
+  background-color: #e5e7eb;
+}
+
+.btn_edit_link {
+  @apply inline-block px-6 py-2.5 
+  bg-blue-600 
+  text-white font-medium 
+  text-xs 
+  leading-tight 
+  uppercase 
+  rounded 
+  shadow-md
+  hover:bg-blue-700 
+  hover:shadow-lg 
+  focus:bg-blue-700 
+  focus:shadow-lg 
+  focus:outline-none 
+  focus:ring-0 
+  active:bg-blue-800 
+  active:shadow-lg 
+  transition 
+  duration-150 
+  ease-in-out;
+}
+
+.btn_salve_link {
+  @apply inline-block px-6 py-2.5 
+  bg-green-600
+  text-white font-medium 
+  text-xs 
+  leading-tight 
+  uppercase 
+  rounded 
+  shadow-md
+  hover:bg-green-700 
+  hover:shadow-lg 
+  focus:bg-green-700 
+  focus:shadow-lg 
+  focus:outline-none 
+  focus:ring-0 
+  active:bg-green-800 
+  active:shadow-lg 
+  transition 
+  duration-150 
+  ease-in-out;
+}

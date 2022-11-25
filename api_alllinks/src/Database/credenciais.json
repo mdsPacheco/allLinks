@@ -1,0 +1,29 @@
+{
+  "dbs": [
+
+    {
+      "client": "pg",
+      "connection": {
+          "host" : "roasted-malay-apple.db.elephantsql.com",
+          "database": "olympo_core",
+          "user":     "egqlkuee",
+          "password": "XQfQ0L7DbJb2oljXU0-Zm5Jr1vqZZPpF"
+      },
+      "useNullAsDefault": true
+    },
+
+
+    {
+      "client": "pg",
+      "connection": {
+          "host" : "containers-us-west-60.railway.app",
+          "database": "olympo_core",
+          "user":     "egqlkuee",
+          "password": "XQfQ0L7DbJb2oljXU0-Zm5Jr1vqZZPpF"
+      },
+      "useNullAsDefault": true
+    }
+
+  ]
+
+}
