@@ -17,6 +17,7 @@ import {
   WifiHigh,
   TiktokLogo,
   TelegramLogo,
+  Bank,
 } from "phosphor-react";
 
 export interface Icon {
@@ -61,6 +62,8 @@ export function IconsLinks({ icon, color, weight, size }: Icon) {
         <Phone size={size} color={color} weight={weight} />
       ) : icon === "Telegram" ? (
         <TelegramLogo size={size} color={color} weight={weight} />
+      ) : icon === "Pix" ? (
+        <Bank size={size} color={color} weight={weight} />
       ) : (
         <Phone />
       )}

@@ -52,8 +52,8 @@ export function Links() {
     };
 
     try {
-      if (links_criados.length >= 5)
-        throw { message: "Você criou o limite máximo de Links" };
+      // if (links_criados.length >= 5)
+      //   throw { message: "Você criou o limite máximo de Links" };
 
       const response = await api.post(`/Create_Link`, dados);
       slinks_criados(response.data.result);
@@ -239,6 +239,7 @@ export function Links() {
                     <option value="Tiktok">Tiktok</option>
                     <option value="Telefone">Telefone</option>
                     <option value="Telegram">Telegram</option>
+                    <option value="Pix">Pix</option>
                   </select>
                 </div>
 
